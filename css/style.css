@@ -1,23 +1,72 @@
-/* Stylez */
-body {font-family: Franklin Gothic Book, Source Sans Pro, Helvetica Neue, sans-serif; margin: 0 auto; background: #efefef; line-height: 1.8em; padding: 12px; box-sizing: border-box; color: #333;}
-body, html {height: 100%;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 0 auto; 
+     background: white; 
+     line-height: 1.8em; 
+     padding: 12px; 
+     box-sizing: border-box; 
+     color: #333;}
 
-.wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
+.wrapper {
+    background: #faf9f7;
+    justify-content: center;
+    padding: 50px;
+}
 
+.name {
+    margin-top: 100px;
+    border: 5px solid red;
+    padding: 10px;
+    color: red;
+    border-radius: 10px;
+}
 
-a {color: #777; text-decoration: none; border-bottom: 1px solid #CCFF26;}
-a:hover {border-bottom: 1px solid #CCFF26; color: #222}
-p {font-weight: 200; font-size: 20px;}
+a {
+    color: #777; 
+    text-decoration: none; 
+    border-bottom: 1px solid #fd194ac7;
+}
 
-.name {font-family: Playfair Display; font-size: 50px; font-weight: 900; padding-bottom: 20px;}
+a:hover {
+    border-bottom: 1px solid #009999;
+    color: #222
+    }
 
-.container {margin: 0 auto; width: 600px; height: 400px; padding: 80px 12px; overflow: auto;}
+p {
+    font-weight: 200; 
+    font-size: 20px;
+}
 
-.meta {text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
-.meta a:hover {border-bottom: 1px solid #CCFF26; color: #333;}
+.highlight {
+    font-size: 20px; 
+    font-weight: bold;
+    color: red;
+    border-bottom-style: solid;
+}
 
-.inline-list {list-style: none; margin: 0; padding: 0;}
-.inline-list li {display: inline-block;}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
 
-footer .inline-list li {padding-right: 40px;}
-footer {margin: 0 auto; position: absolute; bottom: 0px; padding: 40px 0; width: 600px;}
+.text {
+    text-transform: uppercase; 
+    font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; 
+    font-size: 15px; 
+    letter-spacing: .15em;}
+
+.text a:hover {
+    border-bottom: 1px solid #04ffff; 
+    color: #333;}
+
+.links {
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
